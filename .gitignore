@@ -1,45 +1,45 @@
 # compiled output
-front_end_angular/dist
-front_end_angular/tmp
-front_end_angular/out-tsc
+front_end/dist
+front_end/tmp
+front_end/out-tsc
 # Only exists if Bazel was run
-front_end_angular/bazel-out
+front_end/bazel-out
 
 # dependencies
-front_end_angular/node_modules
+front_end/node_modules
 
 # profiling files
-front_end_angular/chrome-profiler-events*.json
-front_end_angular/speed-measure-plugin*.json
+front_end/chrome-profiler-events*.json
+front_end/speed-measure-plugin*.json
 
 # IDEs and editors
-front_end_angular/.idea
-front_end_angular/.project
-front_end_angular/.classpath
-front_end_angular/.c9/
-front_end_angular/*.launch
-front_end_angular/.settings/
-front_end_angular/*.sublime-workspace
+front_end/.idea
+front_end/.project
+front_end/.classpath
+front_end/.c9/
+front_end/*.launch
+front_end/.settings/
+front_end/*.sublime-workspace
 
 # IDE - VSCode
-front_end_angular/.vscode
-front_end_angular/.history/*
+front_end/.vscode
+front_end/.history/*
 
 # misc
-front_end_angular/.sass-cache
-front_end_angular/connect.lock
-front_end_angular/coverage
-front_end_angular/libpeerconnection.log
-front_end_angular/npm-debug.log
-front_end_angular/yarn-error.log
-front_end_angular/testem.log
-front_end_angular/typings
+front_end/.sass-cache
+front_end/connect.lock
+front_end/coverage
+front_end/libpeerconnection.log
+front_end/npm-debug.log
+front_end/yarn-error.log
+front_end/testem.log
+front_end/typings
 
 # System Files
-front_end_angular/Thumbs.db
+front_end/Thumbs.db
 
-back_end_ballerina/target
-back_end_ballerina/.ballerina/
+back_end/target
+back_end/.ballerina/
 
 # VS Code
 .vscode/
@@ -52,4 +52,4 @@ Thumbs.db
 *.log
 
 # Compiled object files for C++
-board_waspmote_cpp/*.o
+board/*.o
