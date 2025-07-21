@@ -1,5 +1,7 @@
 # Waspmote sensors visualization
 
+This is an old project and it is currently being rewritten (project-rewrite branch).
+
 ### Requirements:
 
 1. ***Read*** <code>attached</code> and <code>on-board</code> sensors of a waspmote node ***once in a given period of time***.
