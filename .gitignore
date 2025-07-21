@@ -1,0 +1,55 @@
+# compiled output
+front_end_angular/dist
+front_end_angular/tmp
+front_end_angular/out-tsc
+# Only exists if Bazel was run
+front_end_angular/bazel-out
+
+# dependencies
+front_end_angular/node_modules
+
+# profiling files
+front_end_angular/chrome-profiler-events*.json
+front_end_angular/speed-measure-plugin*.json
+
+# IDEs and editors
+front_end_angular/.idea
+front_end_angular/.project
+front_end_angular/.classpath
+front_end_angular/.c9/
+front_end_angular/*.launch
+front_end_angular/.settings/
+front_end_angular/*.sublime-workspace
+
+# IDE - VSCode
+front_end_angular/.vscode
+front_end_angular/.history/*
+
+# misc
+front_end_angular/.sass-cache
+front_end_angular/connect.lock
+front_end_angular/coverage
+front_end_angular/libpeerconnection.log
+front_end_angular/npm-debug.log
+front_end_angular/yarn-error.log
+front_end_angular/testem.log
+front_end_angular/typings
+
+# System Files
+front_end_angular/Thumbs.db
+
+back_end_ballerina/target
+back_end_ballerina/.ballerina/
+
+# VS Code
+.vscode/
+
+# OS & Editor junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled object files for C++
+board_waspmote_cpp/*.o

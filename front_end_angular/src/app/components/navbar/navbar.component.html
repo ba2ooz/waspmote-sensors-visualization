@@ -1,0 +1,9 @@
+<h1>Angular Router App</h1>
+<!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
+<nav>
+  <ul>
+    <li *ngIf="!isLogged()"><a routerLink="/login" routerLinkActive="active">Login Component</a></li>
+    <li><a routerLink="/dashboard" routerLinkActive="active">Dashboard Component</a></li>
+    <button *ngIf="isLogged()" routerLink="/login" routerLinkActive="active" type="button" pButton icon="pi pi-times" (click)="logOut()" label="Log Out" class="ui-button-secondary"></button>
+  </ul>
+</nav>
